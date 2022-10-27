@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+#container{
+    width:90%;
+    margin:25px auto;
+}
+.containerList{
+    position:relative;
+    display:inline;
+    float:left;
+    width:20%;
+    height:auto;
+    padding:80px 20px;
+    margin:10px;
+    border:1px solid black;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.textRel{
+    width:100%;
+    resize:none;
+    border:none;
+}
+.doneAbs{
+    color:crimson;
+}
+.doneAbs:hover{
+    cursor:pointer;
+}
+.cross,.edit{
+    position:absolute;
+    width:20%;
+    top:0px;
+    right:0px;
+    padding:10px;
+    color:crimson;
+    font-size:20px;
+    font-family: 'Fasthand', cursive;
+    text-transform:uppercase;
+    text-align:center;
+}
+.cross:hover{
+    cursor: pointer;
+    color:transparent;
+    text-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+.edit{
+    left:0px;
+}
+
+.listContainer{
+    position:absolute;
+    list-style-type:none;
+    padding:15px 0px;
+    left:0px;
+    height:50px;
+    width:100%;
+    border:1px solid white;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.containerPot{
+    float:left;
+    height:30px;
+    width:30px;
+    border-radius:50px;
+    border:1px solid white;
+    margin:0 10px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+}
+.containerPot:hover{
+    cursor:pointer;
+}
